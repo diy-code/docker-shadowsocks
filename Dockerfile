@@ -1,5 +1,5 @@
 FROM alpine:latest
-MAINTAINER diycode <i@diycode.me>
+MAINTAINER yuange <hzyuange@gmail@.com>
 
 RUN apk add --no-cache ca-certificates python py-setuptools
 RUN apk add --no-cache --virtual .build-deps \

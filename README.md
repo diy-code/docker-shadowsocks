@@ -7,14 +7,14 @@ linux. The versions of this dockerfile follows shadowsocks [releases](https://gi
 
 ## Usage:
 
-Pull the latest version from [docker hub](https://hub.docker.com/r/diycode/shadowsocks/):
+Pull the latest version from [docker hub](https://hub.docker.com/r/hzyuange/shadowsocks/):
 
 ```
-docker pull diycode/shadowsocks
+docker pull hzyuange/shadowsocks
 ```
 
 run it with command
 
 ```
-docker run -d -p 8388:8388 --name shadowsocks diycode/shadowsocks -s 0.0.0.0 -p 8388 -m aes-256-cfb -k ${your_password}
+docker run -d -p 8388:8388 --name shadowsocks hzyuange/shadowsocks -s 0.0.0.0 -p 8388 -m aes-256-cfb -k ${your_password}
 ```
